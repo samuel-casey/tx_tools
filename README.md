@@ -20,6 +20,8 @@ pip install -r requirements.txt
 # contents of .env
 ETHERSCAN_API_KEY="your_etherscan_api_key"
 ```
+#### Registering an Etherscan API key
+Head to [etherscan](https://etherscan.io/myaccount) to get an API key. Etherscan provides free API access as a needed public service so long as you don't exceed 5 api calls per second. This code uses a `rate_limiter` which should keep you under the limit.
 
 ## Usage
 Modify `analyze_tx.py` with the transaction hash you want to analyze.
